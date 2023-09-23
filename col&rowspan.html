@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: coral;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="col&rowspan.html">Row Col</a></li>
+                <li><a href="Classroutine.html">Routine</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome To my website</h1>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">2023</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>First</td>
+                <td>second</td>
+                <td>third</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2">Fourth</td>
+                <td>Fifth</td>
+            </tr>
+            <tr>
+                <td>Six</td>
+            </tr>
+            <tr>
+                <td colspan="3">Seven</td>
+            </tr>
+
+            <tr>
+                <td colspan="2" rowspan="2">
+                    eight
+                </td>
+                <td>Nineth</td>
+            </tr>
+            <tr>
+                <td>Tenth</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

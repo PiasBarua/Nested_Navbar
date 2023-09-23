@@ -1,0 +1,48 @@
+nav {
+    background-color: chartreuse;
+    padding: 10px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li a:hover {
+    background-color: rgb(177, 44, 44);
+
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav>ul>li:hover>Ul {
+    display: block;
+    position: absolute;
+
+}
+
+.dropdown {
+    display: none;
+    background-color: rgb(137, 137, 137);
+    padding: 0px;
+}
+
+.dropdown li {
+    padding: 10px;
+    margin: 0;
+}

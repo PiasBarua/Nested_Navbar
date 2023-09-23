@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        .header {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            width: 50%;
+
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-top: 20px;
+            width: 50%;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="col&rowspan.html">Row Col</a></li>
+                <li><a href="Classroutine.html">Routine</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome To my website</h1>
+    </header>
+    <header>
+        <div class="header">
+            <h2>Green University Of Bangladesh</h2>
+            <h3>Teacher Name Tanpia Tasnim</h3>
+            <h3>Department of Computer Science & Engineering</h3>
+            Daily Class Routine
+        </div>
+    </header>
+    <table>
+        <tbody>
+            <tr>
+                <td>Time</td>
+                <th rowspan="2">8.30-10.00</th>
+                <th rowspan="2">10.00-11.30</th>
+                <th rowspan="2">11.30-01.00</th>
+                <th rowspan="2">01.30-03.00</th>
+                <th rowspan="2">03.00-04.30</th>
+            </tr>
+            <tr>
+                <td colspan="1">Date</td>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td colspan="2">CSE 300 <br> B-1005</td>
+                <td colspan="2">CSE 300 <br> B-1005</td>
+                <td colspan="2">CSE 300 <br> B-1005</td>
+            </tr>
+
+            <tr>
+                <th>Tuesday</th>
+                <td></td>
+                <td>Counseling Hour</td>
+                <td colspan="2">Metting With Thesis Student</td>
+
+                <td></td>
+            </tr>
+
+            <tr>
+                <th>Wednesday</th>
+                <td colspan="2">CSE 201 <br> B-411</td>
+                <td colspan="2">CSE 301 <br> D-702</td>
+                <td colspan="2">Various Committee Meeting</td>
+            </tr>
+
+            <tr>
+                <th>Thrusday</th>
+                <td></td>
+                <td></td>
+                <td colspan="2">Metting With Thesis Student</td>
+                <td colspan="2">Weekly AC Meeting</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td colspan="2">CSE 312 <br> B-802</td>
+                <td colspan="2">CSE 311 <br> B-802</td>
+                <td colspan="2">Counseling Hour</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
